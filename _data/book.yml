@@ -1,0 +1,37 @@
+short: cargo-deny
+title: cargo-deny の本
+original_title: The cargo-deny Book
+seo_title: cargo-deny の本（Embark Studios「cargo-deny」公式ドキュメント日本語訳）
+summary: Rust の依存クレートについて、既知の脆弱性の助言、使ってはいけないクレート、ライセンス、取得元を確かめるツール「cargo-deny」（Embark Studios）の公式ドキュメントの、非公式な日本語訳。コマンドと、advisories・bans・licenses・sources の 4 つの確認の設定と診断を全文訳している。
+author: Embark Studios と cargo-deny の貢献者
+source: https://github.com/EmbarkStudios/cargo-deny
+license: MIT または Apache-2.0
+license_url: https://github.com/EmbarkStudios/cargo-deny/blob/main/LICENSE-MIT
+version: 2026-11-19 時点（コミット 6d51289）
+translated: 2026-11-21
+disclaimer: Embark Studios・RustSec・Rust Project・Rust Foundation とは提携していません。
+home_toc: true
+nav:
+  - {file: cli/, title: コマンド}
+  - {file: checks/, title: チェック}
+chapters:
+  - {file: cli/, title: コマンドラインツール}
+  - {file: cli/common.html, title: "コマンド: 共通のオプション"}
+  - {file: cli/init.html, title: "コマンド: init"}
+  - {file: cli/check.html, title: "コマンド: check"}
+  - {file: cli/list.html, title: "コマンド: list"}
+  - {file: cli/fetch.html, title: "コマンド: fetch"}
+  - {file: checks/, title: チェック}
+  - {file: checks/cfg.html, title: "チェック: 設定"}
+  - {file: checks/advisories/, title: advisories}
+  - {file: checks/advisories/cfg.html, title: "advisories: 設定"}
+  - {file: checks/advisories/diags.html, title: "advisories: 診断"}
+  - {file: checks/bans/, title: bans}
+  - {file: checks/bans/cfg.html, title: "bans: 設定"}
+  - {file: checks/bans/diags.html, title: "bans: 診断"}
+  - {file: checks/licenses/, title: licenses}
+  - {file: checks/licenses/cfg.html, title: "licenses: 設定"}
+  - {file: checks/licenses/diags.html, title: "licenses: 診断"}
+  - {file: checks/sources/, title: sources}
+  - {file: checks/sources/cfg.html, title: "sources: 設定"}
+  - {file: checks/sources/diags.html, title: "sources: 診断"}
