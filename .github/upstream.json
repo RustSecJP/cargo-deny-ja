@@ -1,1 +1,14 @@
-{n  "upstreams": [n    {n      "repo": "EmbarkStudios/cargo-deny",n      "branch": "main",n      "paths": [n        "docs/src",n        "deny.template.toml",n        "tests/cfg"n      ],n      "base": "6d512893fcfea934e8e69c5df44132a4970c42d0"n    }n  ]n}
+{
+  "upstreams": [
+    {
+      "repo": "EmbarkStudios/cargo-deny",
+      "branch": "main",
+      "paths": [
+        "docs/src",
+        "deny.template.toml",
+        "tests/cfg"
+      ],
+      "base": "6d512893fcfea934e8e69c5df44132a4970c42d0"
+    }
+  ]
+}
